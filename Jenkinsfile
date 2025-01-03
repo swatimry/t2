@@ -44,7 +44,7 @@ pipeline {
                -Dsonar.projectName="maven-asg2-t2" \
                -Dsonar.host.url=http://localhost:9000 \
                -Dsonar.sources=. \
-               -Dsonar.token=%SONAR_TOKEN%
+               -Dsonar.token=${SONAR_TOKEN}
                 '''
             }
         }
