@@ -43,7 +43,9 @@ pipeline {
                -Dsonar.projectKey=t7 \
                -Dsonar.projectName="t7" \
                -Dsonar.host.url=http://localhost:9000 \
-               -Dsonar.sources=. \
+               -Dsonar.sources=src/main/java
+               -Dsonar.tests=src/test/java
+               -Dsonar.exclusions=**/*Test.java
                -Dsonar.token=${SONAR_TOKEN}
                 '''
             }
