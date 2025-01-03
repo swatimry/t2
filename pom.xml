@@ -18,8 +18,8 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <sonar.host.url>http://localhost:9000</sonar.host.url>
-        <sonar.projectKey>task-2</sonar.projectKey>
-         <sonar.login>sqp_862e683c35e43af414ad60b2903963033c875115</sonar.login>
+        <sonar.projectKey>t7</sonar.projectKey>
+         <sonar.login>sqp_6852b10a22479f48ff016648011efa3bf460b54e</sonar.login>
         <spring.boot.version>2.7.5</spring.boot.version> 
     </properties>
 
